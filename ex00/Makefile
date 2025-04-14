@@ -6,7 +6,7 @@
 #    By: ilevy <ilevy@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/04 10:50:03 by ilevy             #+#    #+#              #
-#    Updated: 2025/04/04 13:30:06 by ilevy            ###   ########.fr        #
+#    Updated: 2025/04/14 13:41:55 by ilevy            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ CPP_FLAGS:= -Wall -Wextra -Werror -std=c++98
 
 #Files and Dir
 O_DIR:= o_files/
-CPP_FILES:= main.cpp Bureaucrat.cpp
+CPP_FILES:= main.cpp ScalarConverter.cpp
 O_FILES:= $(addprefix $(O_DIR), $(CPP_FILES:.cpp=.o))
 
 #To give some color to my makefile~

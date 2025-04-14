@@ -6,7 +6,7 @@
 /*   By: ilevy <ilevy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 10:29:10 by ilevy             #+#    #+#             */
-/*   Updated: 2025/04/11 10:37:23 by ilevy            ###   ########.fr       */
+/*   Updated: 2025/04/14 13:46:58 by ilevy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,7 @@ int main(int argc, char **argv)
         std::cout << "Usage: ./convert [parameter_to_be_converted]" << std::endl;
         return (1);
     }
-    std::string param = argv[1]; 
-    // 1) Detect the type of literal passed as parameter.
-    
-    // 2) Convert the string to the type of literal found.
-    // 3) Convert it EXPLICITLY to the three other data types
-    // 4) Display with the format given as example.
+    std::string param = argv[1];
+	ScalarConverter::convert(param);
     return (0);
 }
